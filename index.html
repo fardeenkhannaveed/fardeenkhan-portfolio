@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fardeen Khan | Web Developer &amp; Web Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <a href="#top" class="logo">&lt;Fardeen&gt;</a>
+
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#projects">Projects</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary">Hire me</a>
+    </header>
+
+    <main id="top">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-text">
+                <p class="hero-hello">Hi, I’m</p>
+                <h1>Fardeen Khan</h1>
+                <p class="hero-role">Web Developer &amp; Web Designer</p>
+                <p class="hero-intro">I design and build clean, responsive websites.</p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Explore my work</a>
+                    <a href="#contact" class="btn btn-outline">Let’s talk</a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/fardeenkhannaveed" aria-label="GitHub" target="_blank" rel="noopener">
+                        <img src="./Assets/github-logo.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/fardeen-khan-aa3631446/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <img src="./Assets/linkedin-logo.png" alt="LinkedIn">
+                    </a>
+                    <!-- Opens Gmail in a new tab. Put your mail logo in Assets/mail-logo.png -->
+                    <a href="https://mail.google.com/mail/?view=cm&to=fardeenkhannaveed@gmail.com" aria-label="Email" target="_blank" rel="noopener">
+                        <img src="./Assets/mail.jpg" alt="Email">
+                    </a>
+                </div>
+            </div>
+
+            <figure class="hero-photo">
+                <img src="./Assets/image.jpg" alt="Portrait of Fardeen Khan">
+            </figure>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <h2>About me</h2>
+            <div class="about">
+                <p class="about-text">
+                    I’m a web developer and web designer. I build simple, good-looking websites with HTML and CSS, and I’m now learning JavaScript to make them interactive.
+                </p>
+
+                <dl class="facts">
+                    <div class="fact">
+                        <dt>Name</dt>
+                        <dd>Fardeen Khan</dd>
+                    </div>
+                    <div class="fact">
+                        <dt>Education</dt>
+                        <dd>Intermediate in Computer Science</dd>
+                    </div>
+                    <div class="fact">
+                        <dt>Role</dt>
+                        <dd>Web Developer &amp; Web Designer</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+
+                <!-- data-level is the percentage. JavaScript fills the bar -->
+                <div class="skill">
+                    <div class="skill-head">
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-level">95%</span>
+                    </div>
+                    <div class="track">
+                        <div class="fill" data-level="95"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-head">
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-level">70%</span>
+                    </div>
+                    <div class="track">
+                        <div class="fill" data-level="70"></div>
+                    </div>
+                </div>
+
+                <!-- Still learning: no percentage -->
+                <div class="skill">
+                    <div class="skill-head">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="badge">Currently learning</span>
+                    </div>
+                    <div class="track learning"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <div class="cards">
+
+                <article class="card cert">
+                    <h3>Advanced Diploma in Software Engineering (3 years)</h3>
+                    <p class="muted"><span class="badge">Currently in first semester</span></p>
+                </article>
+
+                <article class="card cert">
+                    <h3>Claude 101</h3>
+                    <p class="muted">Claude Academy by Anthropic</p>
+                    <a href="https://academy.claude.com/verify/2cc2223904e664d5cbed1de653df5f30" class="btn btn-outline" target="_blank" rel="noopener">Show credentials</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="cards">
+
+                <article class="card project">
+                    <div class="shot">
+                        <img src="./Assets/traveldestination.png" alt="Travel Destination screenshot">
+                    </div>
+                    <div class="card-body">
+                        <h3>Travel Destination</h3>
+                        <p class="muted">A travel website with destination pages, feedback, FAQ and a booking form.</p>
+                        <a href="https://fardeenkhannaveed.github.io/TravelDestination/" class="btn btn-primary" target="_blank" rel="noopener">View preview</a>
+                    </div>
+                </article>
+
+                <article class="card project">
+                    <div class="shot">
+                        <img src="./Assets/portfolio.png" alt="Portfolio screenshot">
+                    </div>
+                    <div class="card-body">
+                        <h3>Portfolio</h3>
+                        <p class="muted">My personal portfolio, designed and coded from scratch.</p>
+                        <a href="#" class="btn btn-primary">View preview</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact">
+            <div class="contact-intro">
+                <h2>Hire me</h2>
+                <p>Tell me which role you are hiring for and I will get back to you.</p>
+            </div>
+
+            <form id="contact-form">
+                <input type="hidden" name="access_key" value="d17b88f7-a579-44d7-81ea-05b2a6a756df">
+                <input type="hidden" name="subject" value="New hire request from portfolio">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="role-input">Role</label>
+                <input type="text" id="role-input" name="role" placeholder="Write the role you want to hire me for" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                <button type="submit" id="send-btn" class="btn btn-primary">Send message</button>
+
+                <!-- The result message shows here -->
+                <p id="form-status"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>© 2026 Fardeen Khan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
