@@ -1,6 +1,6 @@
 # Fardeen Khan | Portfolio Website
 
-My personal portfolio website. I designed and coded it from scratch using HTML, CSS and JavaScript.
+My personal portfolio website. I designed and coded it from scratch using HTML, CSS and JavaScript..
 
 ![Portfolio screenshot](./Assets/portfolio.png)
 
