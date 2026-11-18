@@ -2,6 +2,9 @@
 
 My personal portfolio website. I designed and coded it from scratch using HTML, CSS and JavaScript..
 
+
+Live on vercel : https://fardeenkhan-portfolio-delta.vercel.app/
+
 ![Portfolio screenshot](./Assets/portfolio.png)
 
 ## Features
